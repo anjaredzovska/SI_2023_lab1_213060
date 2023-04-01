@@ -1,0 +1,36 @@
+commit 78ad7fbca82b2e78807f95483131404e8191bfe9
+Author: Anja <anjaredzovska1128@gmail.com>
+Date:   Sat Apr 1 02:54:44 2023 +0200
+
+    Fix method sumEvenNumbers
+
+commit 8d071fc4a45dbe0e833acbfcfd4ee93e95178a8f
+Merge: 772a6c7 6b2c649
+Author: Anja <anjaredzovska1128@gmail.com>
+Date:   Sat Apr 1 03:04:38 2023 +0200
+
+    Merge branch 'bug2'
+
+commit 6b2c6491fc5960a9e38f96ef34a993df6b674f9f
+Author: Anja <anjaredzovska1128@gmail.com>
+Date:   Sat Apr 1 02:53:41 2023 +0200
+
+    Fix wrong condition in filterOddNumbers
+
+commit 772a6c7b060be6f589325d45a005ae0893b51838
+Author: Anja <anjaredzovska1128@gmail.com>
+Date:   Sat Apr 1 02:52:29 2023 +0200
+
+    Fix wrong loop for reading
+
+commit e4daf3c0547eea6bfa0790f8b1a3399931d3f924
+Author: Anja <anjaredzovska1128@gmail.com>
+Date:   Sat Apr 1 02:41:19 2023 +0200
+
+    Add java class
+
+commit 02944fe0258244dce1d1498cde1f559beb0afe21
+Author: Anja <anjaredzovska1128@gmail.com>
+Date:   Sat Apr 1 02:40:03 2023 +0200
+
+    Initial commit

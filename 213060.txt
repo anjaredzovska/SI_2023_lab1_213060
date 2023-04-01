@@ -1,0 +1,62 @@
+4 чекор: cd Desktop
+mkdir SI_2023_lab1_213060
+cd SI_2023_lab1_213060
+git init- se kreira novo repo vo Git vo postoeckiot direktorium
+5 чекор: git remote add origin  https://github.com/anjaredzovska/SI_2023_lab1_213060.git
+6 чекор: nano README.md
+git add README.md
+git commit -m "Initial commit"
+7 чекор: nano SILab1.java
+git add SILab1.java
+git commit -m "Add java class"
+8 чекор: git push
+9 чекор: git branch bug1/2/3
+git checkout bug1/2/3
+10 чекор: git checkout bug1
+11 чекор: <n e resenieto.
+nano SILab1.java
+git add SILab1.java
+git commit -m " Fix wrong loop for reading"
+12 чекор: git checkout bug2
+13 чекор: != e resenieto.
+nano SILab1.java
+git add SILab1.java
+git commit -m "in filterOddNumbers"
+14 чекор: git checkout bug3
+15 чекор: sum=0 sum+= e resenieto.
+nano SILab1.java
+git add SILab1.java
+git commit -m " Fix method sumEvenNumbers"
+16 чекор: git push --all
+17 чекор: git checkout bug1
+18 чекор: git merge bug1
+ git push origin master
+19 чекори:git fetch
+git merge origin/master
+20 чекор: git merge bug2
+ git push origin master
+21 чекори:git fetch
+git merge origin/master
+22 чекор: git checkout bug3
+23 чекор: rebase master
+24 чекор: git checkout master
+25 чекор: git merge bug3
+26 чекор:git push --force
+27 чекор: nano logs.txt
+git log 
+nano 213060.txt
+git commit -m "Final commit"
+28 чекор: git push --all
+
+Одговори на прашања: 
+Чекор 18: Командата git merge bug1 е успешно извршена без да се појават конфликти. Решена е командава со FF. Aко имало конфликт, точно ќе беше наведено кој дел е грешка. За наоѓање на грешките најлесно е преку nano и име на датотеката да се најдат грешките рачно и да се зачува новата датотека/фајл. Стратегијата е FF, промените направени биле применети на тековната гранка.
+Fast-forward
+ SILab1.java | 2 +-
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+Чекор 20: Командата  git merge bug2 е успешно извршена без да се појават конфликти.  Aко имало конфликт, точно ќе беше наведено кој дел е грешка. За наоѓање на грешките најлесно е преку nano и име на датотеката да се најдат грешките рачно и да се зачува новата датотека/фајл. Спојувањето е извршено со помош на стратегијата ort-Octopus Recursive Three-way. Се користи за спојување на повеќе гранки во една истовремето. Комбинација е од FF и Recursive. Најчесто се користи за поголеми проблеми.
+Auto-merging SILab1.java
+Merge made by the 'ort' strategy.
+Чекор 25: Командата git merge bug3 е успешно извршена без да се појават конфликти. Решена е командава со FF. Aко имало конфликт, точно ќе беше наведено кој дел е грешка. За наоѓање на грешките најлесно е преку nano и име на датотеката да се најдат грешките рачно и да се зачува новата датотека/фајл. Стратегијата е FF, промените направени биле применети на тековната гранка.
+ 
+Fast-forward
+ SILab1.java | 4 ++--
